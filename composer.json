@@ -1,0 +1,23 @@
+{
+    "name": "typo3-documentation-team/speeddemo",
+    "type": "typo3-cms-extension",
+    "description": "Demonstrate how fast a PHP class can be loaded into TYPO3",
+    "homepage": "https://docs.typo3.org/",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^11.5",
+        "typo3/cms-rte-ckeditor": "^11.5",
+        "typo3/cms-fluid-styled-content": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Typo3DocumentationTeam\\Speeddemo\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "speeddemo"
+        }
+    }
+}

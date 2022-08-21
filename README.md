@@ -1,2 +1,4 @@
-# speeddemo
-Demonstrate how fast a PHP class can be loaded into TYPO3
+Sitepackage for the project "speeddemo"
+==============================================================
+
+Add some explanation here.
