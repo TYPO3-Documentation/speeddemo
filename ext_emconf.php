@@ -9,7 +9,7 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'templates',
     'constraints' => [
         'depends' => [
-            'typo3' => '11.5.0-12.0.99',
+            'typo3' => '11.5.0-12.4.99',
         ],
         'conflicts' => [
         ],
@@ -26,5 +26,5 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'Documentation Team',
     'author_email' => 'info@typo3.org',
     'author_company' => 'TYPO3 Documentation Team',
-    'version' => '1.4.0',
+    'version' => '1.4.1',
 ];
